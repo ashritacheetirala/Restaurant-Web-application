@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #fff; 
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/rest.jpg);
+}
+
+
+.main {
+  width: 1170px;
+  margin: 200px 130px;
+  border: 10px solid #cd853f;
+  padding:20px 50px 20px 50px;
+  
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.section-title h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #cd853f;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menus {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-column {
+  width: 18%;
+}
+.menu-column h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  
+  position: relative;
+  padding-bottom: 5px;
+}
+.menu-column h4:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  /*background-color: #cd853f;*/
+  bottom: 0;
+}
+.single-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.single-menu .menu-content h5 {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 500;
+  border-bottom: 1px dashed #fff;
+  
+}
+
+    </style>
+</head>
+<body>
+        <div class="main">
+                <div class="section-title">
+                    <h2>Monday Specials</h2>     
+                </div>
+                <div class="menus">
+                    <div class="menu-column">
+                        <h4><i>Appetizers</i></h4>
+                        <p style="font-size: 15px; color:#cd853f"><i>(Pick any @ $9.99)</i></p>
+                        <div class="single-menu">
+                            
+                            <div class="menu-content">
+                                <h5>Teriyaki Meatballs</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="single-menu">
+                            
+                            <div class="menu-content">
+                                <h5>Jalepeno Crisps</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="single-menu">
+                            
+                            <div class="menu-content">
+                                <h5>Garlic Bread</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        
+                       
+
+                        
+
+                        
+                    </div>
+                    <div class="menu-column">
+                        <h4><i>Entrée</i></h4>
+                        <p style="font-size: 15px; color:#cd853f"><i>(Pick any @ $17.50)</i></p>
+                        <div class="single-menu">
+                           
+                            <div class="menu-content">
+                                <h5>Mac and Cheese</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            
+                            <div class="menu-content">
+                                <h5>Black Bean Tacos</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            
+                            <div class="menu-content">
+                                <h5>Beef Tacos</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                    <div class="menu-column">
+                        <h4><i>Desserts</i></h4>
+                        <p style="font-size: 15px; color:#cd853f"><i>(Pick any @ $13.99)</i></p>
+                       
+                        <div class="single-menu">
+                            
+                            <div class="menu-content">
+                                <h5>Tiramisu</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+</body>
